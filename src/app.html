@@ -4,9 +4,13 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
+		<script type="module" src="/src/cyan-elements/dist/cyan.js"></script>
+		<link rel="stylesheet" href="/src/cyan-elements/dist/style.css">
 		%sveltekit.head%
 	</head>
-	<body>
+	<body class="cyan--themed cyan--mode--dark">
+		<cyan-icon noun="fox"></cyan-icon>
+		<cyan-textfield></cyan-textfield>
 		<div>%sveltekit.body%</div>
 	</body>
 </html>
