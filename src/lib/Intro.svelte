@@ -4,7 +4,7 @@
 
 let options = [
   { label: '.bookLayout', value: 'bookLayout' },
-  { label: '.emptyLayout', value: 'emtpyLayout' },
+  { label: '.emptyLayout', value: 'emptyLayout' },
   { label: '.dahsboardLayout', value: 'dashboardLayout'},
   { label: '.singleColumnLayout', value: 'singleColumnLayout' }
 ]
@@ -44,7 +44,10 @@ function changeMainClass (event: Event) {
         <td>
             <cyan-code>dashboardLayout</cyan-code></td><td>A layout for dashboards. Arranges sections into rows of 3 items for desktop and tablet. (on mobile, acts like the <span class="code">singleColumnLayout</span>)</td></tr>
       <tr><td class="lowEmphasis" style="text-decoration: line-through;"><span class="code">withSideBarLayout</span></td><td class="lowEmphasis" style="text-decoration: line-through;"> A layout for wiki and game pages, with a site specific sidebar. </td></tr>
-      <tr><td><span class="code">emptyLayout</span></td><td>A layout filling 100% of the space with some padding.</td></tr>
+      <tr>
+        <td><span class="code">emptyLayout</span></td>
+        <td>A Naive layout that just expects the <cyan-code>Column</cyan-code>s to size themselves through CSS (or automatically by the rendering engine)</td>
+      </tr>
       <tr>
         <td>
             <cyan-code>bookLayout</cyan-code></td><td>A layout with 2 sized columns. use class <span class="code">double</span> to get 2 columnns wide <span class="code">Column</span></td></tr>
