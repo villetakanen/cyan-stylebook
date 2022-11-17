@@ -14,10 +14,10 @@ function toggleGuides (event: Event) {
 </div>
 
 <style lang="sass">
-#controls
+/* #controls
   position: fixed
   bottom: 0
   right: 0
   padding: 1rem
-  z-index: 1000
+  z-index: 1000 */
 </style>

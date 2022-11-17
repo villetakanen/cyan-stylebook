@@ -8,7 +8,8 @@ function toggleMenu(e: CustomEvent) {
 </script>
 
 <article class="Column">
-  <h2>Menu Button</h2>
-  { open }
+  <h2>Nav Menu Button</h2>
+  <p>The Nav Menu Button is a <a href="#themedElementInfo">themed</a> button that opens a drawer. It supports setting the noun to match the current context.</p>
   <cyan-nav-menu-button open={open} on:change={toggleMenu} />
+  <p>The button above thinks the drawer is <cyan-code>{ open ? 'open' : 'closed'}</cyan-code></p>
 </article>
