@@ -3,6 +3,7 @@
 	import Column from "$lib/Column.svelte";
 	import Controls from "$lib/Controls.svelte";
 import Intro from "$lib/Intro.svelte";
+	import MenuButton from "$lib/MenuButton.svelte";
 </script>
 
 <AppBar />
@@ -10,6 +11,7 @@ import Intro from "$lib/Intro.svelte";
 <main class="bookLayout">
   <Intro />
   <Column />
+  <MenuButton />
 </main>
 
 <Controls />
