@@ -11,13 +11,23 @@ function toggleGuides (event: Event) {
 
 <div id="controls">
   <cyan-toggle label="Visual Guides" on:change={toggleGuides} />
+  <a href="/">
+    <cyan-nav-button noun="fox">Home</cyan-nav-button>
+  </a>
+  <a href="/intro">
+    <cyan-nav-button>Intro</cyan-nav-button>
+  </a> 
+  <a href="/navigation">
+    <cyan-nav-button>Navigation (and by the way, here is a really long text, that should clip></cyan-nav-button>
+  </a>
+  <p>aaa</p>
+  <cyan-nav-button compact>Button</cyan-nav-button>
+  <cyan-nav-button compact>Button</cyan-nav-button>
 </div>
 
 <style lang="sass">
-/* #controls
-  position: fixed
-  bottom: 0
-  right: 0
-  padding: 1rem
-  z-index: 1000 */
+#controls
+  display: flex
+  flex-direction: column
+  gap: 8px
 </style>
