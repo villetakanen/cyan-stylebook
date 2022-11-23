@@ -23,6 +23,9 @@ function toggleGuides (event: Event) {
   <a href="/cyan-love-button">
     <cyan-nav-button noun="button">Cyan Love Button</cyan-nav-button>
   </a>
+  <a href="/cyan-loader">
+    <cyan-nav-button noun="loader">Cyan Loader</cyan-nav-button>
+  </a>
   <p>aaa</p>
   <cyan-nav-button compact>Button</cyan-nav-button>
   <cyan-nav-button compact>Button</cyan-nav-button>
