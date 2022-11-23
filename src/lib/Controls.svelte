@@ -20,6 +20,9 @@ function toggleGuides (event: Event) {
   <a href="/navigation">
     <cyan-nav-button>Navigation (and by the way, here is a really long text, that should clip></cyan-nav-button>
   </a>
+  <a href="/cyan-love-button">
+    <cyan-nav-button noun="button">Cyan Love Button</cyan-nav-button>
+  </a>
   <p>aaa</p>
   <cyan-nav-button compact>Button</cyan-nav-button>
   <cyan-nav-button compact>Button</cyan-nav-button>
