@@ -1,21 +1,47 @@
 <script lang="ts">
-  function toggleGuides (event: Event) {
-    const on = (event.target as HTMLInputElement).checked
-    if (on) {
-      document.querySelector('main')?.classList.add('withGuides')
-    } else {
-      document.querySelector('main')?.classList.remove('withGuides')
-    }
+	import type { CyanNavMenuButton } from "src/cyan-elements/src";
+
+
+let showTray = false
+
+function toggleMenu (event: Event) {
+  showTray = (event.target as CyanNavMenuButton).open
+}
+
+function toggleGuides (event: Event) {
+  const on = (event.target as HTMLInputElement).checked
+  if (on) {
+    document.querySelector('main')?.classList.add('withGuides')
+  } else {
+    document.querySelector('main')?.classList.remove('withGuides')
   }
-  </script>
+}
+</script>
+
+<cyan-navigation-rail>
+  <cyan-nav-menu-button on:change={toggleMenu}/>
+  <div>
+    <a href="/typography">
+      <cyan-nav-button noun="stylebook" text></cyan-nav-button>
+    </a>
+  </div>
+  <cyan-spacer></cyan-spacer>
+  <cyan-lightmode-toggle />
+</cyan-navigation-rail>
+
+<div style="margin-left: 96px">
 
 <cyan-top-app-bar title="Cyan Elements Stylebook" menu role="banner">
-  <cyan-nav-menu-button />
   <h2>Cyan Elements Stylebook</h2>
   <cyan-spacer />
   <cyan-lightmode-toggle />
 </cyan-top-app-bar>
-<nav id="tray">
+
+<slot></slot>
+
+</div>
+
+<nav id="tray" class:hide={!showTray} class="dark">
   <a href="/">
     <cyan-nav-button text noun="stylebook">Introduction</cyan-nav-button>
   </a>
@@ -26,10 +52,9 @@
   <a href="/cyan-top-app-bar">
     <cyan-nav-button noun="page">cyan-top-app-bar</cyan-nav-button>
   </a>
+  <cyan-spacer />
   <cyan-toggle label="Visual Guides" on:change={toggleGuides} />
 </nav>
-
-<slot></slot>
 
 <style lang="sass">
 #tray
@@ -39,6 +64,14 @@
   display: flex
   flex-direction: column
   gap: 8px
-  width: 220px
-  padding-left: 16px
+  width: calc(220px + 2 * 16px)
+  transition: transform 0.2s ease-in-out
+  background-color: var(--chroma-secondary-c)
+  height: calc(100vh - 80px)
+  padding: 16px
+  border-radius: 0 16px 16px 0
+  box-sizing: border-box
+  padding-bottom: 24px
+  &.hide
+    transform: translateX(-244px)
 </style>

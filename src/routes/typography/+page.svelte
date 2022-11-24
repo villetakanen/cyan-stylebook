@@ -1,4 +1,13 @@
 <main class="bookLayout">
+  <article class="Column small card rise-a">
+    <div style="border: solid 1px var(--cyan-color-medium); border-radius: 50%; height: 128px; width: 128px;margin: 12px auto 24px auto">
+      <cyan-icon noun="font" xlarge />
+    </div>
+    <h1 style="text-align: center" class="TypeHeadline4">Typography</h1>
+    <p style="text-align: center; margin-bottom: 16px" class="lowEmphasis TypeBody2">A longish treatise on typography for the Cyan, Pelilauta, and Mekanismi. </p>
+  </article>
+
+
   <article class="Column">
     <h2>Type Color</h2>
     <section>
