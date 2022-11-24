@@ -8,6 +8,9 @@
   <a href="/">
     <cyan-nav-button text noun="stylebook">Introduction</cyan-nav-button>
   </a>
+  <a href="/typography">
+    <cyan-nav-button noun="font">Typography</cyan-nav-button>
+  </a>
   <hr>
   <a href="/cyan-top-app-bar">
     <cyan-nav-button noun="page">cyan-top-app-bar</cyan-nav-button>
