@@ -15,6 +15,7 @@
       <p>This is a plain paragraph. The font family is <cyan-code>Cabin</cyan-code> and text-is either white, 
         or black, with opacity 0.87 and 0.74, respectively.</p>
       <p class="TypeBody2">This is a paragraph with the style <cyan-code>TypeBody2</cyan-code>, which should make the text a bit smaller.</p>
+      <p class="TypeCaption">This is a paragraph with the style<cyan-code>TypeCaption.</cyan-code>, which should make the text very small, and change the font to UI font.</p>
       <h4>Low emphasis</h4>
       <p class="lowEmphasis">This paragraph has the "atomic" style <cyan-code>lowEmphahis</cyan-code>, and should have low emphasis, and thus opacity of 0.60</p>
       <p class="TypeBody2 lowEmphasis">And the same, in the smaller text size</p>

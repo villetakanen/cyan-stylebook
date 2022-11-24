@@ -8,9 +8,6 @@
   <a href="/intro">
     <cyan-nav-button>Intro</cyan-nav-button>
   </a>
-  <a href="/iconography">
-    <cyan-nav-button noun="stylebook">Iconography</cyan-nav-button>
-  </a>
   <a href="/navigation">
     <cyan-nav-button>Navigation (and by the way, here is a really long text, that should clip></cyan-nav-button>
   </a>

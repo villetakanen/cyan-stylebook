@@ -5,6 +5,10 @@
 
 <AppBar />
 
-<main class="singleColumnLayout">
+<main class="bookLayout">
+  <article class="Column medium">
+	<h2>Navigation Bar/Tray Buttons</h2>
+    <cyan-navigation-button noun="font" label="Typography" />
+  </article>
   <MenuButton />
 </main>

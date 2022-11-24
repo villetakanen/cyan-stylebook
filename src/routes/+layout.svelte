@@ -1,6 +1,5 @@
 <script lang="ts">
-	import type { CyanNavMenuButton } from "src/cyan-elements/src";
-
+import type { CyanNavMenuButton } from "src/cyan-elements/src";
 
 let showTray = false
 
@@ -20,11 +19,12 @@ function toggleGuides (event: Event) {
 
 <cyan-navigation-rail>
   <cyan-nav-menu-button on:change={toggleMenu}/>
-  <div>
-    <a href="/typography">
-      <cyan-nav-button noun="stylebook" text></cyan-nav-button>
-    </a>
-  </div>
+  <a href="/">
+    <cyan-navigation-button noun="stylebook" label="Intro"></cyan-navigation-button>
+  </a>
+  <a href="/typography">
+    <cyan-navigation-button noun="font" label="Typo"></cyan-navigation-button>
+  </a>
   <cyan-spacer></cyan-spacer>
   <cyan-lightmode-toggle />
 </cyan-navigation-rail>
@@ -48,6 +48,11 @@ function toggleGuides (event: Event) {
   <a href="/typography">
     <cyan-nav-button noun="font">Typography</cyan-nav-button>
   </a>
+  <a href="/iconography">
+    <cyan-nav-button noun="d12">Iconography</cyan-nav-button>
+  </a>
+  <a href="/navigation">
+    <cyan-nav-button noun="arrow-right">Navigation</cyan-nav-button>
   <hr>
   <a href="/cyan-top-app-bar">
     <cyan-nav-button noun="page">cyan-top-app-bar</cyan-nav-button>
