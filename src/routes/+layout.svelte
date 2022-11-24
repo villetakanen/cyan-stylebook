@@ -1,4 +1,7 @@
-<cyan-top-app-bar title="Cyan Elements Stylebook" menu>
+<cyan-top-app-bar title="Cyan Elements Stylebook" menu role="banner">
+  <cyan-nav-menu-button />
+  <h2>Cyan Elements Stylebook</h2>
+  <cyan-spacer />
   <cyan-lightmode-toggle />
 </cyan-top-app-bar>
 <nav id="tray">
