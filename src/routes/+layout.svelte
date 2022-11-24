@@ -1,3 +1,14 @@
+<script lang="ts">
+  function toggleGuides (event: Event) {
+    const on = (event.target as HTMLInputElement).checked
+    if (on) {
+      document.querySelector('main')?.classList.add('withGuides')
+    } else {
+      document.querySelector('main')?.classList.remove('withGuides')
+    }
+  }
+  </script>
+
 <cyan-top-app-bar title="Cyan Elements Stylebook" menu role="banner">
   <cyan-nav-menu-button />
   <h2>Cyan Elements Stylebook</h2>
@@ -15,6 +26,7 @@
   <a href="/cyan-top-app-bar">
     <cyan-nav-button noun="page">cyan-top-app-bar</cyan-nav-button>
   </a>
+  <cyan-toggle label="Visual Guides" on:change={toggleGuides} />
 </nav>
 
 <slot></slot>

@@ -1,16 +1,7 @@
-<script lang="ts">
-function toggleGuides (event: Event) {
-  const on = (event.target as HTMLInputElement).checked
-  if (on) {
-    document.querySelector('main')?.classList.add('withGuides')
-  } else {
-    document.querySelector('main')?.classList.remove('withGuides')
-  }
-}
-</script>
+
 
 <div id="controls">
-  <cyan-toggle label="Visual Guides" on:change={toggleGuides} />
+
   <a href="/">
     <cyan-nav-button noun="fox">Home</cyan-nav-button>
   </a>
