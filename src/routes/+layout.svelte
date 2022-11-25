@@ -29,7 +29,7 @@ function toggleGuides (event: Event) {
   <cyan-lightmode-toggle />
 </cyan-navigation-rail>
 
-<div style="margin-left: 96px">
+<div style="margin-left: 80px">
 
 <cyan-top-app-bar title="Cyan Elements Stylebook" menu role="banner">
   <h2>Cyan Elements Stylebook</h2>

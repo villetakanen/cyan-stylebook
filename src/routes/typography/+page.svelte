@@ -24,7 +24,7 @@
     </section>
   </article>
 
-  <article class="Column full">
+  <article class="Column large">
     <h2>Column width</h2>
     <p class="TypeBody2 lowEmphasis">The width of text elements is bounded by artificial <cyan-code>ch</cyan-code>.</p>
 

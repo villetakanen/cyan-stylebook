@@ -20,7 +20,7 @@ function changeMainClass (event: Event) {
 }
 </script>
 
-<article class="Column double">
+<article class="Column large">
   <h2>Cyan Elements Stylebook</h2>
   <p>This <strong>SvelteKit App</strong> acts as a kind of a Diary for the UX and UI design for the 
     cyan-elements. Additionally, it is a very convinient way to test and document usage of UX/UI 
