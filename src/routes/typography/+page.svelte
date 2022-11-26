@@ -7,6 +7,69 @@
     <p style="text-align: center; margin-bottom: 16px" class="lowEmphasis TypeBody2">A longish treatise on typography for the Cyan, Pelilauta, and Mekanismi. </p>
   </article>
 
+  <article class="Column">
+    <h2>h1</h2>
+    <p>The <cyan-code>h1</cyan-code> element and the accompanying class <cyan-code>.TypeheadLine1</cyan-code> are 
+      used to communicate the high-level purpose of a page or an article. Should a view consist of multiple "pages",
+      like a book style layout with multiple chapters with titles, multiple <cyan-code>h1</cyan-code>'s are allowed
+      (though, not recommended).</p>
+    <h3>Desktop and tablet</h3>
+    <section class="withGrid">
+      <h1>H1 abc</h1>
+    </section>
+    <p>The large screen variant for 1st level headings follows google material design suggenstions, for the chosen
+      font (Lato). Should you override the font - please also check the material font tool suggestions for full
+      list of suggested font styles.</p>
+    <h3>Mobile</h3>
+    <section class="withGrid">
+      <h1 class="downscaled">Headline1, downscaled</h1>
+    </section>
+    <p>The downscaled variant of a <cyan-code>h1</cyan-code> uses font styles from material design tool level 3 headings.
+      On mobile screens, the base varian is automatically downscaled, so there should be no difference between the variants.</p>
+    <h3>Cards</h3>
+    <p>A <cyan-code>h1</cyan-code> is never used in a Card.</p>
+  </article>
+
+
+  <article class="Column">
+    <h2>h2</h2>
+    <p>The <cyan-code>h2</cyan-code> element and the accompanying class <cyan-code>.TypeheadLine1</cyan-code> are 
+      used for large headings in a view.</p>
+    <h3>Desktop and tablet</h3>
+    <section class="withGrid">
+      <h2>H2 abc</h2>
+    </section>
+    <p>The large screen variant for 1st level headings follows google material design suggenstions, for the chosen
+      font (Lato). Should you override the font - please also check the material font tool suggestions for full
+      list of suggested font styles.</p>
+    <h3>Mobile</h3>
+    <section class="withGrid">
+      <h2 class="downscaled">Headline2, downscaled</h2>
+    </section>
+    <p>The downscaled variant of a <cyan-code>h2</cyan-code> uses font styles from material design tool level 4 headings.
+      On mobile screens, the base varian is automatically downscaled, so there should be no difference between the variants.</p>
+    <h3>Cards</h3>
+    <section class="card rise-a">
+      <h2 class="withGrid">Headline2, in a card</h2>
+    </section>
+    <p>A <cyan-code>h2</cyan-code> is downscaled to level 3 in a Card. Do note, that the card variant will also be downscaled to
+      level 4 for mobile viewport.</p>
+    <p>In general, using a <cyan-code>h2</cyan-code> in a card, is discouraged.</p>
+  </article>
+
+  <article class="Column">
+    <h2>Headings</h2>
+    <section class="withGrid">
+      <h1>Headline 1</h1>
+      <h2>Headline 2</h2>
+      <h3>Headline 3</h3>
+      <h4>Headline 4</h4>
+      <h5>Headline 5</h5>
+      <h6>Headline 6</h6>
+    </section>
+  </article>
+
+  
 
   <article class="Column">
     <h2>Type Color</h2>
@@ -68,5 +131,11 @@
   height: 24px;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.withGrid {
+  background-image: url(/grid.svg);
+  background-size: 24px 24px;
+  background-repeat: repeat;
+  border-radius: 24px;
 }
 </style>
