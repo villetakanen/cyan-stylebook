@@ -33,13 +33,13 @@
 
   <article class="Column">
     <h2>h2</h2>
-    <p>The <cyan-code>h2</cyan-code> element and the accompanying class <cyan-code>.TypeheadLine1</cyan-code> are 
+    <p>The <cyan-code>h2</cyan-code> element and the accompanying class <cyan-code>.TypeheadLine2</cyan-code> are 
       used for large headings in a view.</p>
     <h3>Desktop and tablet</h3>
     <section class="withGrid">
       <h2>H2 abc</h2>
     </section>
-    <p>The large screen variant for 1st level headings follows google material design suggenstions, for the chosen
+    <p>The large screen variant for 2nd level headings follows google material design suggenstions, for the chosen
       font (Lato). Should you override the font - please also check the material font tool suggestions for full
       list of suggested font styles.</p>
     <h3>Mobile</h3>
@@ -56,6 +56,58 @@
       level 4 for mobile viewport.</p>
     <p>In general, using a <cyan-code>h2</cyan-code> in a card, is discouraged.</p>
   </article>
+
+  <article class="Column">
+    <h2>h3</h2>
+    <p>The <cyan-code>h3</cyan-code> element and the accompanying class <cyan-code>.TypeheadLine3</cyan-code> are 
+      used for small headings in a view.</p>
+    <h3>Desktop and tablet</h3>
+    <section class="withGrid">
+      <h3>H3 abc</h3>
+    </section>
+    <p>The large screen variant for 3rd level headings follows google material design suggenstions, for the chosen
+      font (Lato). Should you override the font - please also check the material font tool suggestions for full
+      list of suggested font styles.</p>
+    <h3>Mobile</h3>
+    <section class="withGrid">
+      <h3 class="downscaled">Headline3, downscaled</h3>
+    </section>
+    <p>The downscaled variant of a <cyan-code>h3</cyan-code> uses font styles from material design tool level 5 headings.
+      On mobile screens, the base variant is automatically downscaled, so there should be no difference between the variants.</p>
+    <h3>Cards</h3>
+    <section class="card rise-a">
+      <h3 class="withGrid">Headline3, in a card</h3>
+    </section>
+    <p>A <cyan-code>h3</cyan-code> is downscaled to level 4 in a Card. Do note, that the card variant will also be downscaled to
+      level 5 for mobile viewport.</p>
+    <p>In general card headings should default to <cyan-code>h3</cyan-code>.</p>
+  </article>
+
+  <article class="Column">
+    <h2>h4</h2>
+    <p>The <cyan-code>h4</cyan-code> element and the accompanying class <cyan-code>.TypeheadLine4</cyan-code> are 
+      used for the smallest headers available.</p>
+    <h3>Desktop and tablet</h3>
+    <section class="withGrid">
+      <h4>H4 abc</h4>
+    </section>
+    <p>The large screen variant for 4th level headings follows google material design suggenstions, for the chosen
+      font (Lato). Should you override the font - please also check the material font tool suggestions for full
+      list of suggested font styles.</p>
+    <h3>Mobile</h3>
+    <section class="withGrid">
+      <h4 class="downscaled">Headline4, downscaled</h4>
+    </section>
+    <p>The downscaled variant of a <cyan-code>h4</cyan-code> uses font styles from material design tool level 6 headings.
+      On mobile screens, the base variant is automatically downscaled, so there should be no difference between the variants.</p>
+    <h3>Cards</h3>
+    <section class="card rise-a">
+      <h4 class="withGrid">Headline4, in a card</h4>
+    </section>
+    <p>A <cyan-code>h4</cyan-code> is downscaled to level 5 in a Card. Do note, that the card variant will also be downscaled to
+      level 6 for mobile viewport.</p>
+    <p>In general a second level heading in a card should use <cyan-code>h4</cyan-code>.</p>
+  </article>  
 
   <article class="Column">
     <h2>Headings</h2>
