@@ -25,6 +25,9 @@ function toggleGuides (event: Event) {
   <a href="/typography">
     <cyan-navigation-button noun="font" label="Typo"></cyan-navigation-button>
   </a>
+  <a href="/cards">
+    <cyan-navigation-button noun="card" label="Cards"></cyan-navigation-button>
+  </a>
   <cyan-spacer></cyan-spacer>
   <cyan-lightmode-toggle />
 </cyan-navigation-rail>
