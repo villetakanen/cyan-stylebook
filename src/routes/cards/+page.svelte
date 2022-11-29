@@ -10,9 +10,29 @@
         and the default slot.</p>
     </cyan-card>
   </article>
-  <article class="Column small">
+  <article class="Column medium">
+    <cyan-card elevation="1" cover="/proprietary/images/example_1.jpeg">
+      <h3 slot="title">With an Image</h3>
+      <cyan-icon noun="card" slot="avatar" large dark/>
+      <p class="downsized">This card has a cover image.</p>
+    </cyan-card>
+  </article>
+  <article class="Column small" style="display:flex; flex-direction:column; gap: 8px">
+    <cyan-card elevation="0">
+      <h4 slot="title">Elevation 0</h4>
+      <cyan-icon noun="mekanismi" slot="avatar" />
+    </cyan-card>
     <cyan-card elevation="1">
       <h4 slot="title">Elevation 1</h4>
       <cyan-icon noun="ll" slot="avatar" />
     </cyan-card>
+    <cyan-card elevation="2">
+      <h4 slot="title">Elevation 2</h4>
+      <cyan-icon noun="quick" slot="avatar" />
+    </cyan-card>
+    <cyan-card elevation="3">
+      <h4 slot="title">Elevation 3 and a very long title</h4>
+      <cyan-icon noun="dd" slot="avatar" />
+    </cyan-card>
+  </article>
 </main>
