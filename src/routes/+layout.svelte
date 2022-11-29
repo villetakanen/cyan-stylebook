@@ -56,6 +56,10 @@ function toggleGuides (event: Event) {
   </a>
   <a href="/navigation">
     <cyan-nav-button noun="arrow-right">Navigation</cyan-nav-button>
+  </a>
+  <a href="/buttons">
+    <cyan-nav-button noun="add-discussion">Buttons</cyan-nav-button>
+  </a>
   <hr>
   <a href="/cyan-top-app-bar">
     <cyan-nav-button noun="page">cyan-top-app-bar</cyan-nav-button>
