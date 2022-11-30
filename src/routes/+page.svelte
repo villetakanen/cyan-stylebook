@@ -7,6 +7,5 @@ import MenuButton from "$lib/MenuButton.svelte"
 <main class="bookLayout">
   <Intro />
   <Column />
-  <MenuButton />
 </main>
 

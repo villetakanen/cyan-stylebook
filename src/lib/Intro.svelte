@@ -28,7 +28,7 @@ function changeMainClass (event: Event) {
     cyan-elements. Additionally, it is a very convinient way to test and document usage of UX/UI 
     practices, tooling, components, and styles in the codebase.</p>
   <h3>Main area layout</h3>
-  <p>Cyan Elements contains 3 layout models for the <cyan-code>{'<main>'}</cyan-code> area of a page. 
+  <p>Cyan Elements contains 4 layout models for the <cyan-code>{'<main>'}</cyan-code> area of a page. 
     Use the select below to swap between the modes.</p>
   <cyan-toolbar>
     <cyan-icon noun="page" />
@@ -53,6 +53,10 @@ function changeMainClass (event: Event) {
       <tr>
         <td>
             <cyan-code>bookLayout</cyan-code></td><td>A layout with 2 sized columns. use class <span class="code">double</span> to get 2 columnns wide <span class="code">Column</span></td></tr>
+      <tr>
+        <td><cyan-code>gridLayout</cyan-code></td>
+        <td>Provides a 4 / 8 / 12 column semi-responsive layout used mainly for listing entries.</td>
+      </tr>
     </tbody>
   </table>
 </article>

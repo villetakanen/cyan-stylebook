@@ -28,6 +28,9 @@ function toggleGuides (event: Event) {
   <a href="/cards">
     <cyan-navigation-button noun="card" label="Cards"></cyan-navigation-button>
   </a>
+  <a href="/inputs">
+    <cyan-navigation-button noun="page" label="Inputs"></cyan-navigation-button>
+  </a>
   <cyan-spacer></cyan-spacer>
   <cyan-lightmode-toggle />
 </cyan-navigation-rail>
