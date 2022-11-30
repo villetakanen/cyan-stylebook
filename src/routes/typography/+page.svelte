@@ -49,9 +49,9 @@
     <p>The downscaled variant of a <cyan-code>h2</cyan-code> uses font styles from material design tool level 4 headings.
       On mobile screens, the base varian is automatically downscaled, so there should be no difference between the variants.</p>
     <h3>Cards</h3>
-    <section class="card rise-a">
+    <cyan-card>
       <h2 class="withGrid">Headline2, in a card</h2>
-    </section>
+    </cyan-card>
     <p>A <cyan-code>h2</cyan-code> is downscaled to level 3 in a Card. Do note, that the card variant will also be downscaled to
       level 4 for mobile viewport.</p>
     <p>In general, using a <cyan-code>h2</cyan-code> in a card, is discouraged.</p>
@@ -75,9 +75,9 @@
     <p>The downscaled variant of a <cyan-code>h3</cyan-code> uses font styles from material design tool level 5 headings.
       On mobile screens, the base variant is automatically downscaled, so there should be no difference between the variants.</p>
     <h3>Cards</h3>
-    <section class="card rise-a">
+    <cyan-card>
       <h3 class="withGrid">Headline3, in a card</h3>
-    </section>
+    </cyan-card>
     <p>A <cyan-code>h3</cyan-code> is downscaled to level 4 in a Card. Do note, that the card variant will also be downscaled to
       level 5 for mobile viewport.</p>
     <p>In general card headings should default to <cyan-code>h3</cyan-code>.</p>

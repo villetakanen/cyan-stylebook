@@ -22,4 +22,6 @@ function changeMainClass (event: Event) {
 }
 </script>
 
-<cyan-select options={options} label="<main> Layout class" on:change={changeMainClass}/>
+<form>
+  <cyan-select options={options} label="<main> Layout class" on:change={changeMainClass} role="listbox"/>
+</form>
