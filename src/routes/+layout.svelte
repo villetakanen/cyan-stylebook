@@ -67,6 +67,9 @@ function toggleGuides (event: Event) {
   <a href="/cyan-top-app-bar">
     <cyan-nav-button noun="page">cyan-top-app-bar</cyan-nav-button>
   </a>
+  <a href="/cyan-dialog">
+    <cyan-nav-button noun="page">cyan-dialog</cyan-nav-button>
+  </a>
   <cyan-spacer />
   <cyan-toggle label="Visual Guides" on:change={toggleGuides} />
 </nav>

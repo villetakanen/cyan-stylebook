@@ -108,21 +108,7 @@
       level 6 for mobile viewport.</p>
     <p>In general a second level heading in a card should use <cyan-code>h4</cyan-code>.</p>
   </article>  
-
-  <article class="Column">
-    <h2>Headings</h2>
-    <section class="withGrid">
-      <h1>Headline 1</h1>
-      <h2>Headline 2</h2>
-      <h3>Headline 3</h3>
-      <h4>Headline 4</h4>
-      <h5>Headline 5</h5>
-      <h6>Headline 6</h6>
-    </section>
-  </article>
-
   
-
   <article class="Column">
     <h2>Type Color</h2>
     <section>
@@ -137,6 +123,12 @@
       <h4>Disabled</h4>
       <p disabled>This paragraph is <cyan-code>disabled</cyan-code>, and should have, and thus opacity of 0.38</p>
     </section>
+  </article>
+
+  <article class="Column">
+    <h2>Body text</h2>
+    <p>Some text</p>
+    <blockquote>And a quote!</blockquote>
   </article>
 
   <article class="Column large">
