@@ -18,7 +18,7 @@ function setActive (e: Event) {
   active = (e.target as CyanToggle).checked
 }
 
-let notification = ''
+let notification = '9+'
 function setNotification (e: Event) {
   notification = (e.target as CyanTextfield).value
 }
@@ -42,7 +42,7 @@ function setNotification (e: Event) {
         <cyan-textfield label="Notification" value={notification} on:change={setNotification}/>
       </cyan-toolbar>
     </form>
-    <cyan-navigation-button noun={selectedNoun} active={active}/>
-    <cyan-navigation-button noun={selectedNoun} label={selectedNoun} active={active} />
+    <cyan-navigation-button noun={selectedNoun} active={active} notification={notification}/>
+    <cyan-navigation-button noun={selectedNoun} label={selectedNoun} active={active} notification={notification} />
   </article>
 </main>
