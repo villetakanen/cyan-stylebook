@@ -1,5 +1,5 @@
 <script lang="ts">
-import nounsFile from '../../cyan-elements/public/proprietary/icons/nouns.json'
+import nounsFile from '../../lib/nouns.json'
 import type { CyanSelect, CyanTextfield, CyanToggle } from "src/cyan-elements/src"
 
 

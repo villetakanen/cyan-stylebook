@@ -1,6 +1,6 @@
 <script lang="ts">
 import AppBar from "$lib/AppBar.svelte"
-import nounsFile from '../../cyan-elements/public/proprietary/icons/nouns.json'
+import nounsFile from '../../lib/nouns.json'
 import type { CyanSelect } from "src/cyan-elements/src"
 
 const nouns = nounsFile as Record<string, string>
