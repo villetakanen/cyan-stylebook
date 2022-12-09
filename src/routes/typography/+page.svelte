@@ -127,8 +127,12 @@
 
   <article class="Column">
     <h2>Body text</h2>
-    <p>Some text</p>
-    <blockquote>And a quote!</blockquote>
+    <p>By default, all text is formatted with <cyan-code>.TypeBody1</cyan-code> class. Text can be <strong>bold</strong>
+      or <i>italic</i>.</p>
+    <blockquote>
+      <h4>Quoting?</h4>
+      <p>And a quote!</p>
+    </blockquote>
   </article>
 
   <article class="Column large">
