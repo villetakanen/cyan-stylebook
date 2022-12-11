@@ -47,9 +47,12 @@ function toggleGuides (event: Event) {
 
 </div>
 
-<nav id="tray" class:hide={!showTray} class="dark">
+<cyan-navigation-tray id="tray" open={showTray}>
   <a href="/">
     <cyan-nav-button text noun="stylebook">Introduction</cyan-nav-button>
+  </a>
+  <a href="/css">
+    <cyan-nav-button noun="d20">CSS Variables</cyan-nav-button>
   </a>
   <a href="/typography">
     <cyan-nav-button noun="font">Typography</cyan-nav-button>
@@ -73,11 +76,12 @@ function toggleGuides (event: Event) {
   <a href="/cyan-navigation-button">
     <cyan-nav-button noun="page">cyan-navigation-button</cyan-nav-button>
   </a>
-  <cyan-spacer />
-  <cyan-toggle label="Visual Guides" on:change={toggleGuides} />
-</nav>
+  <p style="padding: 12px">
+    <cyan-toggle label="Visual Guides" on:change={toggleGuides} />
+  </p>
+</cyan-navigation-tray>
 
-<style lang="sass">
+<!--style lang="sass">
 #tray
   position: fixed
   top: 72px
@@ -95,4 +99,4 @@ function toggleGuides (event: Event) {
   padding-bottom: 24px
   &.hide
     transform: translateX(-244px)
-</style>
+</style-->
