@@ -54,6 +54,9 @@ function toggleGuides (event: Event) {
   <a href="/css">
     <cyan-nav-button noun="d20">CSS Variables</cyan-nav-button>
   </a>
+  <a href="/css/class">
+    <cyan-nav-button noun="d20">CSS Classes</cyan-nav-button>
+  </a>
   <a href="/typography">
     <cyan-nav-button noun="font">Typography</cyan-nav-button>
   </a>
@@ -69,6 +72,9 @@ function toggleGuides (event: Event) {
   <hr>
   <a href="/cyan-top-app-bar">
     <cyan-nav-button noun="page">cyan-top-app-bar</cyan-nav-button>
+  </a>
+  <a href="/cyan-toolbar">
+    <cyan-nav-button noun="tools">cyan-toolbar</cyan-nav-button>
   </a>
   <a href="/cyan-dialog">
     <cyan-nav-button noun="page">cyan-dialog</cyan-nav-button>

@@ -15,5 +15,8 @@ import CssVariableInfo from "$lib/CSSVariableInfo.svelte"
     <CssVariableInfo name="--cn-page-grid" />
     <CssVariableInfo name="--cn-margin" />
     <CssVariableInfo name="--cn-padding" />
+    <CssVariableInfo name="--cn-gap-row" />
+    <CssVariableInfo name="--cn-gap-column" />
+    <CssVariableInfo name="--cn-gap-toolbar" />
   </article>
 </main>

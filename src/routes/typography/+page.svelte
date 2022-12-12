@@ -5,6 +5,10 @@
     </div>
     <h1 style="text-align: center" class="TypeHeadline4">Typography</h1>
     <p style="text-align: center; margin-bottom: 16px" class="lowEmphasis TypeBody2">A longish treatise on typography for the Cyan, Pelilauta, and Mekanismi. </p>
+    <p>A Following Google fonts link is expected</p>
+    <p style="margin: 16px">
+      <cyan-code>{'<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">'}</cyan-code>
+    </p>
   </article>
 
   <article class="Column">
@@ -113,7 +117,7 @@
     <h2>Type Color</h2>
     <section>
       <h3>Paragraphs</h3>
-      <p>This is a plain paragraph. The font family is <cyan-code>Cabin</cyan-code> and text-is either white, 
+      <p>This is a plain paragraph. The font family is <cyan-code>Open Sans</cyan-code> and text-is either white, 
         or black, with opacity 0.87 and 0.74, respectively.</p>
       <p class="TypeBody2">This is a paragraph with the style <cyan-code>TypeBody2</cyan-code>, which should make the text a bit smaller.</p>
       <p class="TypeCaption">This is a paragraph with the style<cyan-code>TypeCaption.</cyan-code>, which should make the text very small, and change the font to UI font.</p>
