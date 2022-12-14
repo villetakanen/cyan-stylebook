@@ -57,6 +57,9 @@ function toggleGuides (event: Event) {
   <a href="/css/class">
     <cyan-nav-button noun="d20">CSS Classes</cyan-nav-button>
   </a>
+  <a href="/core-components">
+    <cyan-nav-button noun="code">HTML Components</cyan-nav-button>
+  </a>
   <a href="/typography">
     <cyan-nav-button noun="font">Typography</cyan-nav-button>
   </a>
