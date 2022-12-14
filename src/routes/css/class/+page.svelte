@@ -15,10 +15,21 @@
     <p><cyan-code>flex-column</cyan-code></p>
     <p class="typeCaption">Basic flexbox extension for flex-direction: column. Use with <cyan-code>flex</cyan-code></p>
   </article>
-  <article class="Column small flex flex-column">
-    <h4>demo</h4>
-    <cyan-card>aaa</cyan-card>
-    <cyan-card>bbb</cyan-card>
-    <cyan-card>ccc</cyan-card>
+
+  <article class="small Column">
+    <h3>Text</h3>
+    <p><cyan-code>underscore</cyan-code></p>
+    <h3 class="underscore downscaled">h3 with underscore</h3>
+    <h4 class="underscore downscaled">h4 with underscore</h4>
+  </article>
+
+  <article class="Column small">
+    <h3>Forms</h3>
+    <p><cyan-code>fieldset</cyan-code></p>
+    <section class="fieldset">
+      <cyan-card>aaa</cyan-card>
+      <cyan-card>bbb</cyan-card>
+      <cyan-card>ccc</cyan-card>
+    </section>
   </article>
 </main>
