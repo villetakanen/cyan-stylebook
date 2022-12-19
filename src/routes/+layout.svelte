@@ -15,10 +15,16 @@ function toggleGuides (event: Event) {
     document.querySelector('main')?.classList.remove('withGuides')
   }
 }
+
+let isSticky = false
+function toggleSticky() {
+  isSticky = !isSticky;
+}
+
 </script>
 
 <cyan-navigation-rail>
-  <cyan-nav-menu-button on:change={toggleMenu}/>
+  <cyan-nav-menu-button on:change={toggleMenu} />
   <a href="/">
     <cyan-navigation-button noun="stylebook" label="Intro"></cyan-navigation-button>
   </a>
@@ -37,9 +43,10 @@ function toggleGuides (event: Event) {
 
 <div style="margin-left: 80px">
 
-<cyan-top-app-bar title="Cyan Elements Stylebook" menu role="banner">
+<cyan-top-app-bar title="Cyan Elements Stylebook" menu role="banner" sticky={isSticky}>
   <h2>Cyan Elements Stylebook</h2>
   <cyan-spacer />
+  <cyan-button noun="pin" on:click={toggleSticky} on:keydown={toggleSticky}/>
   <cyan-lightmode-toggle />
 </cyan-top-app-bar>
 

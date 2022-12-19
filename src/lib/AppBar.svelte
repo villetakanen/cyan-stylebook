@@ -2,10 +2,15 @@
 	import Controls from "./Controls.svelte";
 
 let isMenuOpen = false;
+let isSticky = false;
 
 function toggleMenu(e: CustomEvent) {
   isMenuOpen = !!e.detail;
 }
+function toggleSticky() {
+  isSticky = !isSticky;
+}
+
 </script>
 
 <cyan-toolbar large style="padding: 8px" sticky>
@@ -14,6 +19,7 @@ function toggleMenu(e: CustomEvent) {
     on:change={toggleMenu}
   ></cyan-nav-menu-button>
   <cyan-spacer />
+  <cyan-button noun="pin" on:click={toggleSticky} on:keydown={toggleSticky}/>
   <cyan-lightmode-toggle />
 </cyan-toolbar>
 
