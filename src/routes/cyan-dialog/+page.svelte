@@ -21,6 +21,7 @@ const onclose = (e:Event) => {
       }} />
   </article>
   <cyan-dialog open={dialog} title="An Example Dialog, with very long and arduous title" on:close={onclose}>
+    <cn-tabs tabs={[['test', 'Test'], ['test2', 'Test 2'], ['test3', 'Test 3 - Long Tab Name']]} active="test" />
     <p>Here is a dialog</p>
     <p>It has a title and a close button</p>
     <p>It can be closed by clicking the close button or by pressing the escape key</p>
