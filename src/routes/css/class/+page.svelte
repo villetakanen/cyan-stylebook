@@ -32,4 +32,15 @@
       <cyan-card>ccc</cyan-card>
     </section>
   </article>
+
+  <article class="small Column">
+    <h3>UX</h3>
+    <p class="hoverable clickable">This paragraph is <cyan-code>.hoverable</cyan-code> and
+      <cyan-code>.clickable</cyan-code>.</p>
+    <ul class="hoverable">
+      <li class="clickable">This list is  <cyan-code>.hoverable</cyan-code>, but only the 
+        first item is <cyan-code>.clickable</cyan-code></li>
+      <li>This, second item, is not clickable.</li>
+    </ul>
+  </article>
 </main>
