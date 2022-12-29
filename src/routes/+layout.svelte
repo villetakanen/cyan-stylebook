@@ -80,6 +80,9 @@ function toggleSticky() {
     <cyan-nav-button noun="add-discussion">Buttons</cyan-nav-button>
   </a>
   <hr>
+  <a href="/cn-asset-select">
+    <cyan-nav-button noun="page">cn-asset-select</cyan-nav-button>
+  </a>
   <a href="/cyan-top-app-bar">
     <cyan-nav-button noun="page">cyan-top-app-bar</cyan-nav-button>
   </a>
