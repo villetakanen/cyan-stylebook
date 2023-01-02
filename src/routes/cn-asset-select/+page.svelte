@@ -12,7 +12,7 @@ function handleSelect(e: Event) {
   <article class="Column large">
     <h3>cn-asset-select</h3>
     <p>Selected is <cyan-code>{selected}</cyan-code></p>
-    <cyan-asset-select selected="a" on:change={handleSelect}>
+    <cn-asset-select selected="a" on:change={handleSelect}>
       <cn-asset-option 
         selected
         value="a"

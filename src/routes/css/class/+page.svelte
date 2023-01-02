@@ -10,10 +10,14 @@
   </article>
   <article class="small Column">
     <h3>Containers</h3>
+    <h4>Flexbox</h4>
     <p><cyan-code>flex</cyan-code></p>
     <p class="typeCaption">Basic flexbox setup</p>
     <p><cyan-code>flex-column</cyan-code></p>
     <p class="typeCaption">Basic flexbox extension for flex-direction: column. Use with <cyan-code>flex</cyan-code></p>
+    <h4>Flexbox items</h4>
+    <p><cyan-code>flex-grow</cyan-code></p>
+    <p class="typeCaption">flex-grow: 1</p>
   </article>
 
   <article class="small Column">
