@@ -41,7 +41,7 @@ function toggleSticky() {
   <cyan-lightmode-toggle />
 </cyan-navigation-rail>
 
-<div style="margin-left: 80px">
+<div class="AppLayout">
 
 <cyan-top-app-bar title="Cyan Elements Stylebook" menu role="banner" sticky={isSticky}>
   <h2>Cyan Elements Stylebook</h2>
