@@ -44,6 +44,8 @@
   "missing": "fox.svg",
   "outlink": "outlink.svg",
   "page": "page.svg",
+  "page-edit": "edit-page.svg",
+  "page-character-sheet": "page-character-sheet.svg",
   "pathfinder": "pathfinder.svg",
   "quote": "quote.svg",
   "save": "save.svg",

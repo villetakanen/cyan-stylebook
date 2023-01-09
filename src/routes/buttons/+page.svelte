@@ -36,21 +36,27 @@ function setDisabled (e: Event) {
       the class <cyan-code>{'.cyan'}</cyan-code></p>
       <section class="fieldset">
         <cyan-toggle checked={disabled} on:change={setDisabled} label="Disabled"/>
-        <button disabled={disabled}>Button</button>
-        <button disabled={disabled} class="secondary">Secondary</button>
-        <button disabled={disabled} class="text">Text</button>
-        <button disabled={disabled}><cyan-icon noun="d20"/></button>
-        <button disabled={disabled} class="secondary"><cyan-icon noun="d20"/></button>
-        <button disabled={disabled} class="text"><cyan-icon noun="d20"/></button>
-        <button disabled={disabled}><cyan-icon noun="d20"/> Button + Icon</button>
-        <button disabled={disabled} class="secondary"><cyan-icon noun="d20"/> Secondary + Icon</button>
-        <button disabled={disabled} class="text"><cyan-icon noun="d20"/> Text + Icon</button>
+        <div>
+          <button disabled={disabled}>Button</button>
+          <button disabled={disabled}><cyan-icon noun="fox" small/></button>
+          <button disabled={disabled}><cyan-icon noun="fox" small/><span>Button + Icon</span></button>
+        </div>
+        <div>
+          <button disabled={disabled} class="secondary">Secondary</button>
+          <button disabled={disabled} class="secondary"><cyan-icon noun="d20" small/></button>
+          <button disabled={disabled} class="secondary"><cyan-icon noun="d20" small/><span>Text + Icon</span></button>
+        </div>
+        <div>
+          <button disabled={disabled} class="text">Text</button>
+          <button disabled={disabled} class="text"><cyan-icon noun="d20" small/></button>
+          <button disabled={disabled} class="text"><cyan-icon noun="d20" small/><span>Text + Icon</span></button>
+        </div>
       </section>
       <h4>Cyan-button</h4>
       <p class="TypeCaption"><i>the cyan-button</i> is a dev-time legacy element. By 1.0.0, this should be replaced with a regular button</p>
       <section class="fieldset">
         <cyan-toggle checked={disabled} on:change={setDisabled} label="Disabled"/>
-        <cyan-button disabled={disabled} label="Button"></cyan-button>
+        <cyan-button noun="icons" disabled={disabled} label="Button"></cyan-button>
         <cyan-button disabled={disabled} secondary label="Secondary"></cyan-button>
         <cyan-button disabled={disabled} text label="Text"></cyan-button>
       </section>
