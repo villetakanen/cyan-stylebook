@@ -37,6 +37,9 @@ function toggleSticky() {
   <a href="/inputs">
     <cyan-navigation-button noun="page" label="Inputs"></cyan-navigation-button>
   </a>
+  <a href="/assets">
+    <cyan-navigation-button noun="books" label="Assets"></cyan-navigation-button>
+  </a>
   <cyan-spacer></cyan-spacer>
   <cyan-lightmode-toggle />
 </cyan-navigation-rail>
